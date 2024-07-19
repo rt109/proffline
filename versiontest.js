@@ -1,1 +1,1 @@
-var lastVersion = 0;
+var lastVersion = 1;
