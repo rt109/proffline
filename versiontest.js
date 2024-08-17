@@ -1,3 +1,4 @@
-var lastVersion = 3;
-var downUrl = "https://github.com/rt109/proffline/raw/main/updateapp/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E8%82%89%E9%B8%BD%E5%A6%96%E6%A2%A61.03.apk";
-var updateLog = "禁用了商店里按住确定的操作（请不要狂按确定了），修复下1波按上后崩溃bug";
+var lastVersion = 6;
+var downUrl = "https://rt109.github.io/proffline/update/updateV1.04~1.06.zip";
+var updateLog = "1。修复妖梦模式商店bug，能随便长按乱按了😂  2增加双倍闪活动选项";
+var fileName = "updateV1.04~1.06.zip";
