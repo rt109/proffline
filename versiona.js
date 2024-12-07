@@ -1,4 +1,4 @@
-var lastVersion = 11;
+var lastVersion = 12;
 var downUrl = "https://raw.githubusercontent.com/rt109/proffline/main/updateapp/prapp1.06.txt";
-var updateLog = "V1.11：1。增加1只神秘新宠。旧档会提示你更新数据格式，确定就行。2。新宠和回音能从玛纳霏蛋出货 3。妖梦模式上调劲敌奖励，下调训练师等级，商店商品和刷新费用独立，根据幸运值降价 4。妖梦和科比模式增加神秘遭遇，曼巴精神越高遭遇机率越大 5。蛋券掉落口令bug修复，原先1.10版本是无效的QAQ，1.09才有 6。同步最新版，万圣节活动、闪光变种，事件宝可梦训练师改动等等";
-var fileName = "宝可梦肉鸽妖梦V1.11.apk";
+var updateLog = "V1.12：  1。增加1只小奇怪新宠。旧档会提示你更新数据格式，确定就行。  2。修复新宠闪光bug  3。工具条增加还原默认设置按钮，再也不怕手贱按键丢失  4。同步最新版，会心一投、技能蛋招特性被动的实装与平衡改动等等";
+var fileName = "宝可梦肉鸽妖梦V1.12.apk";
