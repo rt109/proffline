@@ -1,4 +1,4 @@
-var lastVersion = 14;
-var downUrl = "https://pan.baidu.com/s/1eGD3GSLzh9r3ZuQgUNpA7Q?pwd=dbc8";
-var updateLog = "V1.14： 1。增加了新年奇树（进化分支） 2。修复妖梦劲敌奖励过多bug 3。增加了蛇年活动 4。同步最新版，反转能力挑战，随机选人，初始宝可梦调整等等";
-var fileName = "1.14.zip";
+var lastVersion = 15;
+var downUrl = "https://pan.baidu.com/s/1nueicv88uYF76w5eJCDYpw?pwd=awjr";
+var updateLog = "V1.15： 1。妖梦劲敌和机制： https://www.bilibili.com/video/BV17mXkYxEZm 2。修复科比模式通关结算bug，闪光和昵称显示bug 3。蛇年活动换成宝可梦日活动 4。同步最新版，菜单图鉴，太晶化改版，蛋招被动调整等等";
+var fileName = "1.15.zip";
