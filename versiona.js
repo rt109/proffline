@@ -1,4 +1,4 @@
-var lastVersion = 15;
+var lastVersion = 16;
 var downUrl = "https://raw.githubusercontent.com/rt109/proffline/main/updateapp/prapp1.06.txt";
-var updateLog = "V1.15： 1。妖梦劲敌和机制： https://www.bilibili.com/video/BV17mXkYxEZm 2。修复科比模式通关结算bug，闪光和昵称显示bug 3。蛇年活动换成宝可梦日活动 4。同步最新版，菜单图鉴，太晶化改版，蛋招被动调整等等";
-var fileName = "宝可梦肉鸽妖梦V1.15.apk";
+var updateLog = "V1.16 1。妖梦模式新增亡语机制和无尽的硬币 2。下调敌我等级 3。增加2种任务 4。任务改由科比来发，增加完成它的成就 5。每10波清理下图片内存（大概😂） 6。同步最新版，技能实装，极巨化种族值和平衡调整等";
+var fileName = "宝可梦肉鸽妖梦V1.16.apk";
