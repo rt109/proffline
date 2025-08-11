@@ -1,4 +1,13 @@
-var lastVersion = 17;
+var lastVersion = 18;
 var downUrl = "https://raw.githubusercontent.com/rt109/proffline/main/updateapp/prapp1.06.txt";
-var updateLog = "V1.17 1。新增多个fumo道具：https://www.bilibili.com/video/BV1C3uuzuE6U/ 2。新增fumo活动：病毒宝可梦+5，病毒和灵梦开局1fumo，非劲敌训练师机率爆fumo 3。新增多个应激机制：https://www.bilibili.com/video/BV1HcgXzfEWo/ 4。妖梦模式开放难度4，初始防御硬币 5。同步最新版，修bug新异色贴图平衡改动等";
+var updateLog = `此功能将不再在旧版更新
+V1.18
+1。新增fumo商店
+2。新增红魔乡系列(通过成就解锁)和小爆妹fumo
+3。fumo改版，去除概率，效果依数量增强
+4。新增热更新和视频功能
+5。修复妙娃花、花蓓蓓等闪光贴图和应激的bug
+6。妖梦模式开放难度5，上调妖梦模式劲敌奖励，
+199波逃跑曼巴挑战调整为必败，200波以上训练师加盾，
+禁止有fumo的交换绝招坑位`;
 var fileName = "宝可梦肉鸽妖梦V1.17.apk";
