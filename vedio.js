@@ -4,7 +4,6 @@ var arrVedios = [
     // {name:"应激", url:firstUrl+"BV1HcgXzfEWo"},
     // {name:"创意攻防❓", url:firstUrl+"BV1G6HGzcE9D"},
     // {name:"卡死闪退更新难❓", url:firstUrl+"BV1bceazrEGr"},
-    {name:"ai旅伴？鸣依模式", url:firstUrl+"BV1TnpF6uEWw"},
     {name:"颗秒！", url:firstUrl+"BV1A59ZBqECL"},
     {name:"一普通球收铁火", url:firstUrl+"BV1tCRTBBEGa"},
     {name:"爆音怪虐妖梦", url:firstUrl+"BV1JjdoBPEkg"},
