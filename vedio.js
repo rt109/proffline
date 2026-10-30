@@ -44,7 +44,6 @@ var arrVedios = [
     {name:"第14关多重镜", url:firstUrl+"BV1hneyzjEwm"},
     {name:"开局大师球", url:firstUrl+"BV1bFvPzaEEj"},
     {name:"鬼龙单通经典", url:firstUrl+"BV1tSeszREm6"},
-    {name:"鬼龙单刷劲敌", url:firstUrl+"BV1bSeszREhp"},
     {name:"朱紫封面神内斗", url:firstUrl+"BV1TkezzoEKi"},
     {name:"神兽？烂大街", url:firstUrl+"BV16Xeqz3Eqm"},
     {name:"抓住凤王", url:firstUrl+"BV1npeezNEH1"},
