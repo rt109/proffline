@@ -1,1 +1,0 @@
-var lastVersion = 1;
