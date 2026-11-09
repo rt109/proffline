@@ -1,10 +1,12 @@
-var lastVersion = 22;
-var updateLog = `V1.22 
-1。新ZA Mega和Mega活动
-2。新曲，技能实现，平衡调整等
-3。界面和内存优化
-4。每周蛋招
-5。献祭，献祭还会删除蛋 `;
+var lastVersion = 23;
+var updateLog = `V1.23
+1。鸣依模式（要酒馆和角色卡）
+2。使用新内核构建
+3。界面优化
+4。每周特性蛋招优化 
+5。降低曼巴挑战尾号24的难度
+6。万圣节活动
+7。同步最新版，招式、特性随机挑战，界面音乐修bug平衡调整等`;
 var urlWgt = "https://gitee.com/rt109/proffline/raw/master/wgt/1.183.wgtu";
 // var urlWgt = "https://gitee.com/rt109/proffline/raw/master/wgt/1.18.1.wgt";
 //允许使用上面补丁更新的老版本号
