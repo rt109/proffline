@@ -3,7 +3,7 @@ var arrVedios = [
     // {name:"fumo", url:firstUrl+"BV1C3uuzuE6U"},
     // {name:"应激", url:firstUrl+"BV1HcgXzfEWo"},
     // {name:"创意攻防❓", url:firstUrl+"BV1G6HGzcE9D"},
-    // {name:"卡死闪退更新难❓", url:firstUrl+"BV1bceazrEGr"},
+    {name:"酒馆安装与免费模型", url:firstUrl+"BV12JWB6jEAY"},
     {name:"颗秒！", url:firstUrl+"BV1A59ZBqECL"},
     {name:"一普通球收铁火", url:firstUrl+"BV1tCRTBBEGa"},
     {name:"爆音怪虐妖梦", url:firstUrl+"BV1JjdoBPEkg"},
