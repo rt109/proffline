@@ -157,20 +157,16 @@
 
   const findOpeningBase = (recordId) => {
     try {
-      if (typeof getChatMessages !== "function") return null;
+      if (typeof Mvu === "undefined" || typeof Mvu.getMvuData !== "function") return null;
       const end = Math.max(0, (Number(recordId) || 1) - 1);
-      const msgs = getChatMessages("0-" + end, { include_swipes: true });
-      if (Array.isArray(msgs)) {
-        for (let i = msgs.length - 1; i >= 0; i--) {
-          const m = msgs[i];
-          if (!m) continue;
-          const v = (Array.isArray(m.swipes_data) && m.swipes_data[m.swipe_id ?? 0]) || null;
-          if (v && typeof v === "object" && v.stat_data && v.schema !== undefined) return v;
-        }
+      for (let i = end; i >= 0; i--) {
+        const d = Mvu.getMvuData({ type: "message", message_id: i });
+        if (d && d.stat_data !== undefined && d.schema !== undefined) return d;
       }
     } catch (e) { console.warn("[mvu终端桥] 查找开局 base 失败：", e); }
     return null;
   };
+
   const bridgeObj = {
     version: VERSION,
     htmlLength: HTML.length,
@@ -278,11 +274,15 @@
           : null;
         if (!rec || typeof rec.message !== "string") return false;
         if (!rec.message.includes("<JSONPatch>") || !rec.message.includes("</JSONPatch>")) return false;
-        const base = findOpeningBase(rec.message_id) || Mvu.getMvuData({ type: "message", message_id: currentMvuMessageId() }) || {};
+        const base = findOpeningBase(rec.message_id);
+        if (!base) {
+          console.warn("[mvu终端桥] 开局记录缺少可用基线（没有带 stat_data/schema 的楼），已中止");
+          return false;
+        }
         const next = await Mvu.parseMessage(rec.message, base);
         if (!next) return false;
         if (next && typeof next === "object") next["开局记录"] = true;
-        await Mvu.replaceMvuData(next, { type: "message", message_id: currentMvuMessageId() });
+        await Mvu.replaceMvuData(next, { type: "message", message_id: rec.message_id });
         try {
           if (typeof insertOrAssignVariables === "function") insertOrAssignVariables(next, { type: "chat" });
           else if (typeof replaceVariables === "function" && typeof getVariables === "function") {
